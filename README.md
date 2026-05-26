@@ -11,6 +11,7 @@ El presente proyecto consiste en el desarrollo de una solución integral de Busi
 Se identificó que la red procesó 61 millones de viajes en el periodo, con una fuerte concentración operativa en las Líneas B y D (casi el 50% del volumen total). Además, el análisis financiero demostró una alta rentabilidad base por venta directa, con un 93,82% de pasajeros abonando la tarifa completa. A nivel operativo, se detectó una demanda de perfil *commuter*, con una franja crítica de saturación que se extiende desde las 13:00 hasta pasadas las 17:00 horas.
 
 ## 2. Extracción, Transformación y Carga (Proceso ETL)
+Dataset Original y Limpio: Debido al volumen transaccional (archivo superior a 25MB), el dataset completo en formato .csv se encuentra alojado y disponible para descarga en [este enlace de Google Drive [(pega tu link aquí](https://drive.google.com/drive/folders/1j8tcGZt-nO4x05NUWkD4WTIdl9JTEj1l?usp=drive_link))].
 
 ### 2.1 Limpieza y Exploración de Datos
 La fase inicial se desarrolló mediante scripts en Python para la limpieza del dataset original. Durante esta auditoría exploratoria, se identificó un vacío de registros operativos correspondiente a los meses de febrero y marzo. Este hallazgo fue documentado para evitar sesgos en las proyecciones anuales, garantizando que el análisis posterior refleje únicamente los datos reales capturados.
